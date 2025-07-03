@@ -1,4 +1,4 @@
- name: adding dep on A
+name: adding dep on A
 on:
   push:
 jobs:
