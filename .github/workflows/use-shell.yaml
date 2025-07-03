@@ -1,1 +1,12 @@
-
+name: Use shell
+on: 
+  push:
+jobs:
+  execute-shell:
+    runs-on: ubuntu-latest
+    steps:
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      - name: Run hello.sh
+        run: bash hello.sh
