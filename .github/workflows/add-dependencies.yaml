@@ -1,4 +1,4 @@
-name: adding dep on A
+ name: adding dep on A
 on:
   push:
 jobs:
@@ -9,5 +9,5 @@ jobs:
   job_b:
       runs-on: ubuntu-latest
       steps:
-        - run: "this is job B"
+        - run: echo "this is job B"
       
