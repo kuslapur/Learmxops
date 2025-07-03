@@ -1,0 +1,10 @@
+name: print date on push
+on:
+  push:
+    branches: [main]
+jobs: 
+  print-date:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print date
+        run: date
