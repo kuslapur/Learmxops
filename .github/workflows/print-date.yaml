@@ -1,4 +1,4 @@
-name: print date on push
+name: print date on push.
 on:
   push:
     branches: [main]
