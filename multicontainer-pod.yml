@@ -7,4 +7,4 @@ spec:
   - name: front-end
     image: nginx
   - name: back-end
-    image: nodejs
+    image: busybox
